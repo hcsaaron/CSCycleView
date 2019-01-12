@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93C96AAD21EA2032009A7F1D /* CSCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C96AAB21EA2032009A7F1D /* CSCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C96AB821EA204F009A7F1D /* NSTimer+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C96AB421EA204F009A7F1D /* NSTimer+Addition.h */; };
+		93C96AB921EA204F009A7F1D /* CSCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C96AB521EA204F009A7F1D /* CSCycleView.m */; };
+		93C96ABA21EA204F009A7F1D /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C96AB621EA204F009A7F1D /* NSTimer+Addition.m */; };
+		93C96ABB21EA204F009A7F1D /* CSCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C96AB721EA204F009A7F1D /* CSCycleView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93C96AA821EA2032009A7F1D /* CSCycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSCycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C96AAB21EA2032009A7F1D /* CSCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCycleView.h; sourceTree = "<group>"; };
 		93C96AAC21EA2032009A7F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C96AB421EA204F009A7F1D /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		93C96AB521EA204F009A7F1D /* CSCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCycleView.m; sourceTree = "<group>"; };
+		93C96AB621EA204F009A7F1D /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		93C96AB721EA204F009A7F1D /* CSCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCycleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +52,21 @@
 		93C96AAA21EA2032009A7F1D /* CSCycleView */ = {
 			isa = PBXGroup;
 			children = (
-				93C96AAB21EA2032009A7F1D /* CSCycleView.h */,
+				93C96AB321EA204F009A7F1D /* Source */,
 				93C96AAC21EA2032009A7F1D /* Info.plist */,
 			);
 			path = CSCycleView;
+			sourceTree = "<group>";
+		};
+		93C96AB321EA204F009A7F1D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				93C96AB721EA204F009A7F1D /* CSCycleView.h */,
+				93C96AB521EA204F009A7F1D /* CSCycleView.m */,
+				93C96AB421EA204F009A7F1D /* NSTimer+Addition.h */,
+				93C96AB621EA204F009A7F1D /* NSTimer+Addition.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +76,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C96AAD21EA2032009A7F1D /* CSCycleView.h in Headers */,
+				93C96ABB21EA204F009A7F1D /* CSCycleView.h in Headers */,
+				93C96AB821EA204F009A7F1D /* NSTimer+Addition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C96ABA21EA204F009A7F1D /* NSTimer+Addition.m in Sources */,
+				93C96AB921EA204F009A7F1D /* CSCycleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
